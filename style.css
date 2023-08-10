@@ -1,0 +1,38 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px 0px 15px 8px;
+    padding: 9px 15px;
+}
