@@ -11,7 +11,7 @@ button.addEventListener("click", function() {
     tooltip.classList.add("show");
     setTimeout (function() {
         tooltip.classList.remove("show");
-    },700);
+    },2000);
     if(document.execCommand("copy")) {
         PasteText.focus();
     } else {
